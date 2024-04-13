@@ -7,3 +7,7 @@ $ $ pip freeze > requirement.tst
 $docker build -t daveimage .
 #this is the command to list the number of docker images i have locally on my machine 
 $ docker images
+#this is the command to delete the image 
+$ docker rmi -f image daveimage
+
+
